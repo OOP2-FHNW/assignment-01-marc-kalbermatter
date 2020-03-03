@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c78b272b-134e-4a20-8363-beb7f1968332" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/portfolio/Portfolio.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/portfolio/Portfolio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/portfolio.PortfolioTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/portfolio.PortfolioTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-portfolio.PortfolioTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-portfolio.PortfolioTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/portfolio/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/portfolio/Portfolio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/portfolio/PortfolioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/portfolio/PortfolioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583149775197</updated>
-      <workItem from="1583149781800" duration="10756000" />
+      <workItem from="1583149781800" duration="11811000" />
     </task>
     <servers />
   </component>
@@ -182,21 +190,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="939" height="276" key="GridCell.Tab.0.bottom" timestamp="1583223896854">
+    <state width="939" height="276" key="GridCell.Tab.0.bottom" timestamp="1583224518042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="939" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583223896854" />
-    <state width="939" height="276" key="GridCell.Tab.0.center" timestamp="1583223896852">
+    <state width="939" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583224518042" />
+    <state width="939" height="276" key="GridCell.Tab.0.center" timestamp="1583224518042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="939" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583223896852" />
-    <state width="939" height="276" key="GridCell.Tab.0.left" timestamp="1583223896850">
+    <state width="939" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583224518042" />
+    <state width="939" height="276" key="GridCell.Tab.0.left" timestamp="1583224518041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="939" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583223896850" />
-    <state width="939" height="276" key="GridCell.Tab.0.right" timestamp="1583223896853">
+    <state width="939" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583224518041" />
+    <state width="939" height="276" key="GridCell.Tab.0.right" timestamp="1583224518042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="939" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583223896853" />
+    <state width="939" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583224518042" />
   </component>
 </project>
