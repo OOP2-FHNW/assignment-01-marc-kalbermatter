@@ -16,11 +16,11 @@ public class Portfolio<T extends Investment> {
     }
 
     public void buy(T s){
-
         // Need to look if Object is already in Portfolio
         for(int i = 0; i<portfolio.size();i++){
-            if(portfolio.get(i).equals(s)){
-                    portfolio.get(i).setCount(portfolio.get(i).getCount()+s.getCount()); // add newly bought shares to existing ones
+            T share = portfolio.get(i);
+            if(share.equals(s)){
+                    share.setCount(share.getCount()+s.getCount()); // add newly bought shares to existing ones
                 return;
             }
         }
@@ -29,19 +29,22 @@ public class Portfolio<T extends Investment> {
 
 
     public void sell(String s, double num){
-        if(portfolio.contains(getShare(s))) {
-            getShare(s).setCount(getShare(s).getCount() - num);
-            if (getShare(s).getCount() < 1) {
-                portfolio.remove(getShare(s));
+        T share = getShare(s);
+        if(portfolio.contains(share)) {
+            share.setCount(share.getCount() - num); // remove sold shares
+            if (share.getCount() < 1) {
+                portfolio.remove(share);  // no shares left --> shouldn't be in the portfolio
             }
         }
     }
 
 
     public T getShare(String s){
+       //get share by title
         for(int i=0; i<portfolio.size(); i++){
-            if(portfolio.get(i).getTitel().equals(s)){
-                return portfolio.get(i);
+            T share = portfolio.get(i);
+            if(share.getTitel().equals(s)){
+                return share;
             }
         }
        return null;
